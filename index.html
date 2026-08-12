@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Meduloc - Engineering the future of movement. Precision orthopedic technologies designed around the human body.">
+  <title>MEDULOC | Precision / Motion — Engineering the Future of Movement</title>
+
+  <!-- High-Contrast Editorial Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Minimal Sticky Navigation -->
+  <header>
+    <div class="container nav-inner">
+      <a href="#" class="logo-link">
+        <img src="assets/meduloc_logo.svg" alt="Meduloc Logo" class="logo-img">
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="#products">Products</a></li>
+        <li><a href="#science">Science</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button class="btn-editorial" onclick="openModal()">Request Data &rarr;</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- SECTION 01 — HERO (PRECISION / MOTION & WEBM VIDEO SHOWCASE) -->
+    <section id="hero" class="sec-ivory">
+      <div class="container section-grid">
+        <div class="hero-layout">
+          <div class="reveal-left delay-1">
+            <span class="eyebrow">PRECISION / MOTION</span>
+            <h1 class="headline-serif">
+              ENGINEERED<br>
+              FOR<br>
+              <span class="text-accent-blue">MOVEMENT.</span>
+            </h1>
+            <p class="body-lead">
+              Precision orthopedic technologies designed around the human body.
+            </p>
+            <div style="display: flex; gap: 1rem; align-items: center;">
+              <button class="btn-editorial" onclick="openModal()" style="background: var(--color-blue); color: #FFF; border-color: var(--color-blue);">
+                EXPLORE TECHNOLOGIES &rarr;
+              </button>
+            </div>
+          </div>
+
+          <!-- Hero WebM Video Showcase replacing 3D Canvas -->
+          <div class="hero-3d-wrapper reveal-scale delay-2" id="heroVideoContainer">
+            <video autoplay loop muted playsinline class="hero-video-media">
+              <source src="assets/hero_video.webm" type="video/webm">
+              Your browser does not support HTML5 video.
+            </video>
+            
+            <div class="hero-3d-tag">
+              <div>
+                <div style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-cyan-glow);">MEDULOC IFF SYSTEM</div>
+                <div style="font-size: 0.85rem; font-weight: 700; color: #FFF;">Nitinol Intramedullary Platform</div>
+              </div>
+              <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-cyan-glow);">MOTION SHOWCASE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 02 — THE HUMAN BODY IS COMPLEX. (8K ANATOMICAL BLUEPRINT) -->
+    <section id="anatomy" class="sec-graphite">
+      <div class="container section-grid">
+        <div>
+          <div class="reveal-up delay-1">
+            <span class="eyebrow">HUMAN MOVEMENT</span>
+            <h2 class="headline-serif" style="color: var(--text-light);">
+              THE HUMAN BODY IS COMPLEX.
+            </h2>
+            <p class="body-lead" style="color: var(--text-light-muted);">
+              Anatomical geometry demands flexible, dynamic stabilization that respects blood supply and bone curvature.
+            </p>
+          </div>
+
+          <div class="anatomy-explore-box reveal-scale delay-2">
+            <div>
+              <h3 style="font-size: 1.5rem; font-weight: 700; color: var(--text-light); margin-bottom: 1rem;">
+                Curvilinear Canal Navigation
+              </h3>
+              <p style="font-size: 0.95rem; color: var(--text-light-muted); margin-bottom: 1.5rem; line-height: 1.6;">
+                Rigid straight implants force bone into unnatural alignment. Meduloc shape-memory elasticity conforms dynamically to patient-specific medullary anatomy.
+              </p>
+              <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--color-cyan-glow);">
+                // ANATOMICAL SENSING: ACTIVE
+              </div>
+            </div>
+
+            <div style="position: relative; text-align: center;">
+              <img src="assets/hero_anatomy_blueprint.jpg" alt="8K Anatomical Skeletal Blueprint Model" style="width: 100%; border-radius: 4px; opacity: 0.95; border: 1px solid var(--border-subtle-light);">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 03 — SO ARE THE SOLUTIONS. -->
+    <section id="solutions" class="sec-ivory">
+      <div class="container section-grid">
+        <div>
+          <div class="reveal-up delay-1">
+            <span class="eyebrow">ENGINEERING REASONING</span>
+            <h2 class="headline-serif">SO ARE THE SOLUTIONS.</h2>
+            <p class="body-lead">Anatomy transforms into precision medical engineering.</p>
+          </div>
+
+          <div class="system-icon-grid">
+            <div class="system-icon-card reveal-up delay-1">
+              <div class="system-icon-header">
+                <span class="system-icon-num">SYSTEM // 01</span>
+              </div>
+              <div class="system-svg-wrapper">
+                <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: 100%;">
+                  <path d="M12 52C22 52 24 12 52 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                  <circle cx="52" cy="12" r="4" fill="currentColor"/>
+                </svg>
+              </div>
+              <h3 class="system-component-title">SUPERELASTIC WIRE</h3>
+              <p class="system-component-desc">Multi-strand Nitinol core providing dynamic flex conformity and smooth insertion trajectory.</p>
+            </div>
+
+            <div class="system-icon-card reveal-up delay-2">
+              <div class="system-icon-header">
+                <span class="system-icon-num">SYSTEM // 02</span>
+              </div>
+              <div class="system-svg-wrapper">
+                <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: 100%;">
+                  <rect x="26" y="16" width="12" height="32" rx="2" stroke="currentColor" stroke-width="2.5"/>
+                  <path d="M26 24L12 16 M38 24L52 16 M26 40L12 48 M38 40L52 48" stroke="currentColor" stroke-width="2.5"/>
+                </svg>
+              </div>
+              <h3 class="system-component-title">DEPLOYABLE ANCHOR</h3>
+              <p class="system-component-desc">Titanium alloy prongs expand to grip cortical walls securely without cement.</p>
+            </div>
+
+            <div class="system-icon-card reveal-up delay-3">
+              <div class="system-icon-header">
+                <span class="system-icon-num">SYSTEM // 03</span>
+              </div>
+              <div class="system-svg-wrapper">
+                <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 100%; height: 100%;">
+                  <rect x="20" y="12" width="24" height="8" rx="2" stroke="currentColor" stroke-width="2.5"/>
+                  <path d="M24 20V52C24 54 26 56 32 56C38 56 40 54 40 52V20" stroke="currentColor" stroke-width="2.5"/>
+                </svg>
+              </div>
+              <h3 class="system-component-title">LOCKING SCREW</h3>
+              <p class="system-component-desc">Self-tapping thread geometry establishing absolute rotational control and compression.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 04 — ORTHOPEDICS CATEGORIES -->
+    <section id="products" class="sec-navy">
+      <div class="container section-grid">
+        <div>
+          <div class="reveal-up delay-1">
+            <span class="eyebrow">TECHNOLOGY PORTFOLIO</span>
+            <h2 class="headline-serif" style="color: var(--text-light); margin-bottom: 2rem;">
+              ORTHOPEDICS
+            </h2>
+          </div>
+
+          <div class="cat-tab-bar reveal-up delay-2">
+            <button class="cat-tab-btn active">TRAUMA</button>
+            <button class="cat-tab-btn">JOINT REPLACEMENT</button>
+            <button class="cat-tab-btn">SPINE</button>
+            <button class="cat-tab-btn">SPORTS MEDICINE</button>
+            <button class="cat-tab-btn">EXTREMITIES</button>
+          </div>
+
+          <div class="reveal-up delay-3" style="background: var(--bg-navy-card); border: 1px solid var(--border-subtle-light); padding: 2.5rem; display: grid; grid-template-columns: 1.5fr 1fr; gap: 3rem; align-items: center;">
+            <div>
+              <h3 id="catTitle" style="font-size: 1.8rem; font-weight: 700; color: #FFF; margin-bottom: 1rem;">Trauma Fixation</h3>
+              <p id="catDesc" style="color: var(--text-light-muted); font-size: 1rem; margin-bottom: 2rem;">
+                Sparing periosteal blood flow and joint capsules in acute diaphyseal and metaphyseal long-bone fractures.
+              </p>
+              <a href="#" class="link-cta" onclick="openModal()">DOWNLOAD CLINICAL MONOGRAPH &rarr;</a>
+            </div>
+
+            <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-subtle-light); padding: 1.5rem;">
+              <div style="margin-bottom: 1.25rem;">
+                <div style="font-family: var(--font-serif); font-size: 2.5rem; color: var(--color-cyan-glow);" id="catStat1">1.5 mm</div>
+                <div style="font-size: 0.8rem; color: var(--text-light-muted); text-transform: uppercase; font-family: var(--font-mono);" id="catStat1Label">Entry Footprint</div>
+              </div>
+
+              <div>
+                <div style="font-family: var(--font-serif); font-size: 2.5rem; color: var(--color-cyan-glow);" id="catStat2">100%</div>
+                <div style="font-size: 0.8rem; color: var(--text-light-muted); text-transform: uppercase; font-family: var(--font-mono);" id="catStat2Label">Sterile Kit Integrity</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 05 — PRECISION AT EVERY LEVEL (MASTER CNC MACHINING PHOTO) -->
+    <section id="science" class="sec-ivory">
+      <div class="container section-grid">
+        <div>
+          <div class="manufacturing-header-grid">
+            <div class="reveal-up delay-1">
+              <span class="eyebrow">MANUFACTURING INTEGRITY</span>
+              <h2 class="headline-serif">PRECISION AT EVERY LEVEL.</h2>
+              <p class="body-lead" style="margin-bottom: 0;">From raw titanium billet to sterile operating room delivery.</p>
+            </div>
+
+            <div class="reveal-scale delay-2">
+              <img src="assets/manufacturing_integrity.webp" alt="Precision 5-Axis CNC Titanium Micro-Milling Manufacturing" class="manufacturing-img">
+            </div>
+          </div>
+
+          <div class="pipeline-grid">
+            <div class="pipeline-card reveal-up delay-1">
+              <div class="pipeline-step">01 // CNC</div>
+              <div class="pipeline-title">CNC MACHINING</div>
+              <div class="pipeline-desc">5-axis Swiss micro-milling to sub-micron component tolerances.</div>
+            </div>
+
+            <div class="pipeline-card reveal-up delay-2">
+              <div class="pipeline-step">02 // POLISH</div>
+              <div class="pipeline-title">NITINOL POLISHING</div>
+              <div class="pipeline-desc">Electropolished surface treatment maximizing fatigue endurance.</div>
+            </div>
+
+            <div class="pipeline-card reveal-up delay-3">
+              <div class="pipeline-step">03 // INSPECT</div>
+              <div class="pipeline-title">LASER INSPECTION</div>
+              <div class="pipeline-desc">100% optical coordinate verification for every single production lot.</div>
+            </div>
+
+            <div class="pipeline-card reveal-up delay-4">
+              <div class="pipeline-step">04 // STERILE</div>
+              <div class="pipeline-title">STERILIZATION</div>
+              <div class="pipeline-desc">Validated gamma radiation barrier protection.</div>
+            </div>
+
+            <div class="pipeline-card reveal-up delay-4">
+              <div class="pipeline-step">05 // PACK</div>
+              <div class="pipeline-title">PACKAGING</div>
+              <div class="pipeline-desc">All-in-one sterile ErgoDrive™ tray assembly.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 06 — DESIGNED FOR SURGEONS. BUILT FOR PATIENTS. (DARK THEMED) -->
+    <section id="about" class="sec-navy" style="border-top: 1px solid var(--border-subtle-light);">
+      <div class="container section-grid">
+        <div>
+          <div class="reveal-up delay-1">
+            <span class="eyebrow">DUAL COMMITMENT</span>
+            <h2 class="headline-serif" style="color: var(--text-light);">DESIGNED FOR SURGEONS.<br>BUILT FOR PATIENTS.</h2>
+          </div>
+
+          <div class="split-screen-grid">
+            <div class="split-card split-card-clinical reveal-left delay-2">
+              <div class="split-tag">CLINICAL ADVANTAGE</div>
+              <h3 style="font-size: 1.6rem; font-weight: 700; margin-bottom: 1rem; color: var(--text-light);">Surgical Excellence</h3>
+              <ul class="split-list">
+                <li class="split-item"><span style="color: var(--color-cyan-glow);">&#10004;</span> Intuitive ErgoDrive™ single-use driver</li>
+                <li class="split-item"><span style="color: var(--color-cyan-glow);">&#10004;</span> Zero intraoperative tray sterilization wait</li>
+                <li class="split-item"><span style="color: var(--color-cyan-glow);">&#10004;</span> Verified 510(k) cleared clinical evidence</li>
+              </ul>
+            </div>
+
+            <div class="split-card split-card-human reveal-right delay-2">
+              <div class="split-tag">HUMAN IMPACT</div>
+              <h3 style="font-size: 1.6rem; font-weight: 700; margin-bottom: 1rem; color: var(--text-light);">Restored Independence</h3>
+              <ul class="split-list">
+                <li class="split-item"><span style="color: var(--color-cyan-glow);">&#10004;</span> Sparing MCP joint capsule & tendon envelopes</li>
+                <li class="split-item"><span style="color: var(--color-cyan-glow);">&#10004;</span> Early post-op functional mobility</li>
+                <li class="split-item"><span style="color: var(--color-cyan-glow);">&#10004;</span> Low profile entry preventing skin breakdown</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 07 — INTRAMEDULLARY SYSTEM ARCHITECTURE (LIGHT THEMED & INTERACTIVE) -->
+    <section id="system" class="sec-ivory" style="border-top: 1px solid var(--border-subtle-dark);">
+      <div class="container section-grid">
+        <div>
+          <div class="reveal-up delay-1">
+            <span class="eyebrow">SYSTEM ARCHITECTURE</span>
+            <h2 class="headline-serif">
+              INTRAMEDULLARY SYSTEM ARCHITECTURE.
+            </h2>
+            <p class="body-lead">
+              Hover components across the mechanism to inspect precision engineering specifications.
+            </p>
+          </div>
+
+          <div class="exploded-system-wrap reveal-scale delay-2" id="interactiveSystemWrap">
+            <img src="assets/system_exploded_interactive.webp" alt="Meduloc Intramedullary System Architecture" class="exploded-img">
+            
+            <!-- Hotspot 1: Distal Tip -->
+            <div class="hotspot-pin" style="left: 6.5%; top: 50%;" data-title="Distal Guidance Tip" data-desc="Tapered 1.5mm entry point designed for smooth curvilinear medullary canal navigation." data-spec="Diameter: 1.5mm | Alloy: Nitinol">
+              <span class="hotspot-pulse"></span>
+              <span class="hotspot-dot">1</span>
+            </div>
+
+            <!-- Hotspot 2: Flexible Shaft -->
+            <div class="hotspot-pin" style="left: 20%; top: 50%;" data-title="Superelastic Guide Shaft" data-desc="Multi-strand Nitinol core wire providing uniform radial strength and optimal flexural conformity." data-spec="Flex Strain: 8% | Fatigue: >10M Cycles">
+              <span class="hotspot-pulse"></span>
+              <span class="hotspot-dot">2</span>
+            </div>
+
+            <!-- Hotspot 3: Deployable Anchor Collar -->
+            <div class="hotspot-pin" style="left: 38.5%; top: 48%;" data-title="Deployable Anchor Collar" data-desc="Precision machined sleeve housing titanium alloy expansion prongs for cementless cortical wall fixation." data-spec="Material: Ti-6Al-4V | Expansion: 12mm">
+              <span class="hotspot-pulse"></span>
+              <span class="hotspot-dot">3</span>
+            </div>
+
+            <!-- Hotspot 4: Main Actuation Body -->
+            <div class="hotspot-pin" style="left: 56.5%; top: 49%;" data-title="Shape-Memory Actuation Body" data-desc="Contoured ergonomics ensuring rigid rotational control and linear compression along diaphyseal fractures." data-spec="Tolerances: ±0.002mm | Finish: Electropolished">
+              <span class="hotspot-pulse"></span>
+              <span class="hotspot-dot">4</span>
+            </div>
+
+            <!-- Hotspot 5: Compression Gear & Locking Screw -->
+            <div class="hotspot-pin" style="left: 73.5%; top: 49%;" data-title="Dynamic Compression Mechanism" data-desc="Micro-milled gear interface providing controlled tactile feedback during intraoperative deployment." data-spec="Thread Type: Self-Tapping | Drive: Hex 2.5mm">
+              <span class="hotspot-pulse"></span>
+              <span class="hotspot-dot">5</span>
+            </div>
+
+            <!-- Hotspot 6: Proximal Drive End -->
+            <div class="hotspot-pin" style="left: 93%; top: 50%;" data-title="ErgoDrive™ Coupler Interface" data-desc="Universal quick-connect coupling for single-use surgical drivers and extraction instruments." data-spec="Interface: ISO Quick-Latch | Sterile: Single-Use">
+              <span class="hotspot-pulse"></span>
+              <span class="hotspot-dot">6</span>
+            </div>
+
+            <!-- Interactive Spec Tooltip Box -->
+            <div class="system-tooltip-card" id="systemTooltip">
+              <div class="tooltip-tag" id="tooltipTag">COMPONENT // 01</div>
+              <div class="tooltip-title" id="tooltipTitle">Component Title</div>
+              <div class="tooltip-desc" id="tooltipDesc">Hover over any numbered hotspot pin to inspect technical parameters.</div>
+              <div class="tooltip-spec" id="tooltipSpec">SPEC: Active Inspection</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 08 — EXECUTIVE MANAGEMENT (DARK THEMED) -->
+    <section id="leadership" class="sec-navy" style="border-top: 1px solid var(--border-subtle-light);">
+      <div class="container section-grid">
+        <div>
+          <div class="exec-section-layout">
+            <!-- Left Side: Title & CTA -->
+            <div class="exec-intro reveal-left delay-1">
+              <div>
+                <span class="eyebrow">MEDULOC EXECUTIVE MANAGEMENT</span>
+                <h2 class="headline-serif" style="color: var(--text-light); font-size: clamp(2.5rem, 4.5vw, 3.8rem); line-height: 1.08; margin-bottom: 2.5rem;">
+                  Leadership that<br>builds the future.
+                </h2>
+              </div>
+              
+              <div style="margin-top: auto;">
+                <a href="#modalBackdrop" onclick="openModal(); return false;" class="link-cta" style="color: var(--text-light); border-bottom-color: var(--text-light);">
+                  MEET THE TEAM &rarr;
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Side: 4 Executive Profile Columns -->
+            <div class="exec-grid reveal-up delay-2">
+              <!-- Exec 1 -->
+              <div class="exec-card">
+                <div class="exec-portrait-wrapper">
+                  <img src="assets/exec_sarah_sachinis.jpg" alt="Sarah Sachinis, BSC" class="exec-portrait-img">
+                </div>
+                <div class="exec-info">
+                  <h4 class="exec-name">SARAH SACHINIS, BSC</h4>
+                  <p class="exec-role">Chief Executive Officer</p>
+                  <p class="exec-role-sub">and President</p>
+                </div>
+              </div>
+
+              <!-- Exec 2 -->
+              <div class="exec-card">
+                <div class="exec-portrait-wrapper">
+                  <img src="assets/exec_michael_collins.jpg" alt="Michael Collins, MSBME, MBA" class="exec-portrait-img">
+                </div>
+                <div class="exec-info">
+                  <h4 class="exec-name">MICHAEL COLLINS, MSBME, MBA</h4>
+                  <p class="exec-role">Director and Co-Founder</p>
+                  <p class="exec-role-sub">COO - Cor Medical Ventures</p>
+                </div>
+              </div>
+
+              <!-- Exec 3 -->
+              <div class="exec-card">
+                <div class="exec-portrait-wrapper">
+                  <img src="assets/exec_benjamin_arnold.jpg" alt="Benjamin Arnold, MSME" class="exec-portrait-img">
+                </div>
+                <div class="exec-info">
+                  <h4 class="exec-name">BENJAMIN ARNOLD, MSME</h4>
+                  <p class="exec-role">Director and Co-Founder</p>
+                  <p class="exec-role-sub">CEO - Cor Medical Ventures</p>
+                </div>
+              </div>
+
+              <!-- Exec 4 -->
+              <div class="exec-card">
+                <div class="exec-portrait-wrapper">
+                  <img src="assets/exec_brian_bowman.jpg" alt="Brian Bowman, BS" class="exec-portrait-img">
+                </div>
+                <div class="exec-info">
+                  <h4 class="exec-name">BRIAN BOWMAN, BS</h4>
+                  <p class="exec-role">Co-Founder</p>
+                  <p class="exec-role-sub">CTO - Cor Medical Ventures</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 09 — FINAL CONCLUSION (LIGHT THEMED) -->
+    <section id="contact" class="sec-ivory" style="text-align: center; padding: 8rem 0; border-top: 1px solid var(--border-subtle-dark);">
+      <div class="container reveal-up delay-1">
+        <span class="eyebrow" style="margin: 0 auto 1.5rem;">THE MEDULOC PROMISE</span>
+        <h2 class="headline-serif" style="color: var(--text-dark); font-size: clamp(3rem, 6vw, 5rem); max-width: 900px; margin: 0 auto 2rem;">
+          Movement is more than motion.<br>
+          <span style="color: var(--color-blue);">It's independence.</span>
+        </h2>
+        
+        <div style="margin-top: 2.5rem;">
+          <button class="btn-editorial" onclick="openModal()" style="background: var(--color-blue); color: #FFF; border-color: var(--color-blue); padding: 1rem 2.2rem; font-size: 0.88rem;">
+            EXPLORE OUR TECHNOLOGIES &rarr;
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER (DARK THEMED) -->
+  <footer class="sec-graphite">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <a href="#" class="logo-link" style="margin-bottom: 1rem;">
+            <img src="assets/meduloc_logo.svg" alt="Meduloc Logo" class="logo-img">
+          </a>
+          <p style="font-size: 0.9rem; color: var(--text-light-muted); margin-bottom: 1.5rem; max-width: 280px;">
+            Engineering better movement through precision and innovation.
+          </p>
+          <button class="btn-editorial" onclick="openModal()" style="color: var(--text-light); border-color: var(--border-subtle-light);">Request Information &rarr;</button>
+        </div>
+
+        <div class="footer-col">
+          <h5>Products</h5>
+          <ul>
+            <li><a href="#hero">Nitinol IFF Platform</a></li>
+            <li><a href="#system">System Architecture</a></li>
+            <li><a href="#system">Deployable Anchor</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Science</h5>
+          <ul>
+            <li><a href="#science">Manufacturing CNC</a></li>
+            <li><a href="#science">Laser Inspection</a></li>
+            <li><a href="#science">Clinical Monograph</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>About</h5>
+          <ul>
+            <li><a href="#about">Clinical & Human</a></li>
+            <li><a href="#">Leadership</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="#" onclick="openModal()">Request Data</a></li>
+            <li><a href="mailto:info@meduloc.com">info@meduloc.com</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Meduloc LLC. All rights reserved.</div>
+        <div style="display: flex; gap: 1.5rem;">
+          <a href="#" style="color: inherit; text-decoration: none;">Privacy Policy</a>
+          <span>|</span>
+          <a href="#" style="color: inherit; text-decoration: none;">Terms of Use</a>
+          <span>|</span>
+          <a href="#" style="color: inherit; text-decoration: none;">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Standard Form Modal Backdrop -->
+  <div class="modal-backdrop" id="modalBackdrop">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeModal()">&times;</button>
+      
+      <span class="eyebrow">MEDULOC CLINICAL INQUIRY</span>
+      <h3 class="headline-serif" style="font-size: 2.2rem; margin-bottom: 1.5rem;">Request Information</h3>
+
+      <form id="infoRequestForm">
+        <div class="form-group">
+          <label class="form-label">Full Name</label>
+          <input type="text" class="form-input" placeholder="Dr. Jane Doe" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Institution / Practice</label>
+          <input type="text" class="form-input" placeholder="Orthopedic Trauma Center" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Email Address</label>
+          <input type="email" class="form-input" placeholder="surgeon@hospital.org" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Inquiry Type</label>
+          <select class="form-select" required>
+            <option value="technique">Surgical Technique & Evaluation</option>
+            <option value="cad">CAD / Spec Data Request</option>
+            <option value="investor">Investor & Partner Inquiries</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn-editorial" style="width: 100%; justify-content: center; margin-top: 1rem;">Submit Inquiry &rarr;</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <div style="font-weight: 700; font-size: 0.95rem; margin-bottom: 0.25rem;">INQUIRY SUBMITTED</div>
+    <div style="font-size: 0.85rem; color: var(--text-light-muted);">Thank you. A Meduloc representative will respond shortly.</div>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
